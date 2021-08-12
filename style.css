@@ -1,0 +1,372 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 0;
+    padding: 0;
+    font-family: 'Anakotmai';
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(./mypics/header.png);
+    background-repeat: no-repeat;  
+}
+
+.header-content {
+    max-width: 650px;
+    padding-left: 50%;
+    padding-top: 10%;
+}
+
+.header-content h1 {
+    padding: 0;
+    height: 10vh;
+    line-height: 100%;
+    color: #fff;
+    font-size: 5em;
+    padding-bottom: .5em;
+}
+
+.header-content p {
+    padding: 0;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 1.3em;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00a8ff;
+    color: white;
+    width: 100%;
+    height: 85px;
+    z-index: 1;
+}
+
+.logo {
+    margin: 0;
+    padding-left: 50px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+    display: block;
+}
+
+.navbar-links a:hover {
+    color: #005b88;
+}
+
+#about,
+#education,
+#skills,#projects,
+#interests
+{
+   margin: 0 13em 0 13em;
+}
+
+.about-title,
+.edu-title,
+.skills-title,
+.projects-title,
+.interests-title{
+    font-size: 2em;
+    color: #00a8ff;
+}
+
+.about-header {
+    line-height: 1em;
+    font-weight: bold;
+}
+
+.sit-std {
+    font-size: .6em;
+}
+
+.kmutt-color {
+    color: darkorange;
+}
+
+.about-content {
+    font-size: 2.25em;
+    max-width: 750px;
+}
+
+.about-history {
+    font-size: .8em;
+}
+
+.about-img {
+    float: right;
+    width: 650px;
+    height: 650px; 
+    box-shadow: 5px 10px;
+}
+.dec{
+    position: absolute;
+    right: 80px;
+    top: 120em;
+}
+
+.hobby h2 {
+    margin-bottom: .2em;
+}
+
+.hobby img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    float: right;
+}
+
+h4+p {
+    clear: right;
+    font-size: .8em;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: #00a8ff;
+}
+
+a:hover{
+    color: #005b88;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+.edu-content-size,
+.skill-content,
+.interest-content{
+    font-size: 1.8em;
+}
+ul{
+    margin: 0;
+}
+
+.edu-item li{
+    font-weight: bolder;
+}
+
+.edu-item p{
+    margin-top: 0;
+}
+
+.edu-item img{
+    display: block;
+    margin: 0 auto;
+}
+
+.edu-content-left { 
+    max-width: 650px;
+    float: left;
+}
+
+.edu-content-right {
+    float: right;
+    max-width: 690px;
+    margin-right: 2.5em;
+}
+#skills{
+    clear: both;
+}
+.skill-content h3{
+    margin-bottom: 5px;
+    margin-left: 25%;
+}
+
+.container{
+    width: 50%;
+    background-color: #D2D7D3;
+    margin-left: 25%;
+    border-radius: 50px;
+}
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+.html{
+    width: 60%;
+    background-color: #00a8ff;
+}
+.css{
+    width: 50%;
+    background-color:#005b88;
+}
+.sql{
+    width: 20%;
+    background-color: #ffbd09;
+}
+.java{
+    width: 20%;
+    background-color: #ff6600;
+}
+.c{
+    width: 40%;
+    background-color: #003cff;
+}
+.ps{
+    width: 80%;
+    background-color: #006091; 
+}
+
+.center{
+    text-align: center;
+}
+.sheese,.ric{
+    display: inline-block;
+    max-width: 750px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.sheese img,.ric img{
+    width: 750px;
+    height: 450px;   
+    border-radius: 40px; 
+   
+}
+.sheese img:hover,.ric img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition-duration: 1.3s;
+}
+
+.interest-content{
+    color: #fff;
+    position: relative;
+    width: 30%;
+    height: 585px;
+    background: #00a8ff;
+    float: left;
+    margin: 0 15px 5%;
+    left: 50px;
+    overflow: hidden;
+}
+.interest-content img{
+    margin: 20px 0 0;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 35%;
+}
+
+.interest-content h3{
+    line-height: 0;
+    padding-left: .8em;
+    font-weight: bold;
+}
+
+.interest-content p{
+    padding-left: .8em;
+}
+
+footer{
+    clear: both;
+    background-color:#00a8ff;
+    height: auto;
+    width: auto;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h2{
+    font-size: 4em;
+    line-height: .5rem;
+}
+
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.social li{
+    margin :0 10px;
+}
+
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social a i {
+    font-size: 3rem;
+}
+
+.social a:hover i, a:hover h4{
+    color: #005b88;
+}
+
+.change-color-folio{
+    color: #005b88;
+}
+
+.footer-bottom{
+    background: #005b88;
+    width: auto;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    
+}
+
+@font-face {
+    font-family: 'Anakotmai';
+    src: url(./Anakotmai/Anakotmai/desktop/ttf/Anakotmai-Light.ttf);
+}
+@media screen and (max-width :1198px){
+    
+    .header-content p{
+        color: #fff;
+        font-weight: lighter;
+        font-size: 2em;
+    }
+}
